@@ -10,3 +10,12 @@ local v0=Instance.new("ScreenGui");v0.Name="OneTap_V4";v0.ZIndexBehavior=Enum.ZI
           \_Welcome to LuaObfuscator.com   (Alpha 0.10.9) ~  Much Love, Ferib 
 
 ]]--
+ -- ... тут все твои функции, UI и прочее ...
+
+-- В САМОМ КОНЦЕ:
+return {
+    addSlider = addSlider,
+    addCheckbox = addCheckbox,
+    addDropdown = addDropdown
+}
+
